@@ -6,11 +6,15 @@
 
 # Novela — A blog theme for Next.js
 
+The beautiful blog theme from Narative adapted by Tinia Labs for Next.js with blazing fast performance.
+
 With minimal styling and maximum features — including multiple homepage layouts, built-in social sharing and dark mode — Novela makes it easy to start publishing beautiful articles and stories with Next.js.
 
 Novela is built by the team at [Narative](https://www.narative.co), updated by [Tinia Labs](https://tinia.org) to work on Next.js, and built for everyone that loves the web.
 
 Special thanks to [@jpvalery](https://github.com/jpvalery) for helping maintain the original Gatsby version of Novela.
+
+See [tinialabs/next-theme-novela](https://github.com/tinialabs/next-theme-novela) for the actual theme files.  This repository containers a starter kit that includes the theme files.
 
 <div>
 <a href="https://novela.tinia.vercel.app/" target="_blank">
@@ -31,6 +35,14 @@ Features specific to Next.js over others Next.js examples
 ## Lighthouse scores (January 2021, Next.js version running on Vercel)
 
 <img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/lighthouse-scores-january-2021.png?raw=true" alt="Lighthouse 100-97-100-100"  />
+
+## Dependencies
+
+See [tinialabs/next-theme-novela](https://github.com/tinialabs/next-theme-novela) for the actual theme files.  This repository containers a starter kit that includes the theme files.
+
+See [tinialabs/next-lib-content](https://github.com/tinialabs/next-lib-content) for logic that generates the blog articles from markdown and yaml files on disk. 
+
+Two Next.js plugins [tinialabs/next-favicon-loader](https://github.com/tinialabs/next-favicon-loader) and [tinialabs/next-meta-image-loader](https://github.com/tinialabs/next-meta-image-loader) were hand-written to provide some of the Gatsby functionality in the original Novela theme and can now be used in any Next.js site.
 
 
 ### Step 1: Starter installation
