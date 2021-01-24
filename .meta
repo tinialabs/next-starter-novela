@@ -1,6 +1,6 @@
 {
   "projects": {
-    "next-lib-content": "git@github.com:tinialabs/next-lib-content.git",
-    "next-theme-novela": "git@github.com:tinialabs/next-theme-novela.git"
+    "next-lib-content": "https://github.com/tinialabs/next-lib-content.git",
+    "next-theme-novela": "https://github.com/tinialabs/next-theme-novela.git"
   }
 }
