@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: `https://example.com`,
+  siteUrl: `https://novela.tinia.vercel.app/`,
   changefreq: 'daily',
   priority: 0.7,
   sitemapSize: 5000,

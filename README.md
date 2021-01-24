@@ -1,4 +1,4 @@
-<a href="https://www.narative.co/labs/novela/" target="_blank">
+<a href="https://novela.tinia.vercel.app/" target="_blank">
 <img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/nextjs-theme-novela-hero-emotion.jpg?raw=true" alt="gatsby-novela-theme hero image" />
 </a>
 
@@ -13,7 +13,7 @@ Novela is built by the team at [Narative](https://www.narative.co), updated by [
 Special thanks to [@jpvalery](https://github.com/jpvalery) for helping maintain the original Gatsby version of Novela.
 
 <div>
-<a href="https://www.narative.co/labs/novela/" target="_blank">
+<a href="https://novela.tinia.vercel.app/" target="_blank">
 <img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/nextjs-theme-novela-cta-demo.jpg?raw=true" alt="gatsby-novela-theme live demo" width="295px" />
 </a>
 </div>
@@ -213,7 +213,7 @@ Add your Site Metadata to the `site.yml` file.
 ---
 title: Novela by Tinia Labs
 name: Tinia Labs & Narative
-siteUrl: https://novela.narative.co
+siteUrl: https://novela.tinia.vercel.app/
 description: This is my description that will be used in the meta tags and
   important for search results
 hero:
