@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "module": "es2020",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "outDir": "build",
+    "rootDir": ".",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "stripInternal": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/theme/types": [
+        "./next-theme-novela/types/index.ts"
+      ],
+      "@/theme/*": [
+        "./next-theme-novela/src/*"
+      ],
+      "@/content/*": [
+        "./content/*"
+      ],
+      "@/lib/*": [
+        "./next-lib-content/src/*"
+      ],
+      "@/config/*": ["./.config/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}

@@ -1,0 +1,43 @@
+---
+title: Novela by Tinia Labs
+name: Tinia Labs & Narative
+siteUrl: https://novela.narative.co
+description: This is my description that will be used in the meta tags and
+  important for search results
+hero:
+  heading: Welcome to Novela, the simplest way to start publishing with Next.js.
+  maxWidth: 652
+social:
+  - name: twitter
+    url: https://twitter.com/narative
+  - name: github
+    url: https://github.com/narative
+  - name: instagram
+    url: https://instagram.com/narative.co
+  - name: linkedin
+    url: https://www.linkedin.com/company/narative/
+  - name: dribbble
+    url: https://dribbble.com/narativestudio
+blog:
+  copyrightYear: 2021
+  contentPosts: content/posts
+  contentAuthors: content/authors
+  basePath: /
+  authorsPage: true
+  pathPosts: 'a'
+  pathAuthors: 'authors'
+  pageLength: 6
+  sources:
+    local: true
+    contentful: false
+manifest:
+  appName: Novela by Narative
+  appShortName: Novela
+  appDescription: Novela by Narative
+  start_url: /
+  background: "#fff"
+  theme_color: "#fff"   
+  display: standalone
+  alwaysEmitFull: false
+googleAnalytics:
+  trackingId: UA-118232427-3
