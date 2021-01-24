@@ -1,6 +1,6 @@
 import React from 'react'
 import type { GetStaticPaths, GetStaticProps } from 'next'
-import AuthorLayout from '@/theme/layouts/author.layout'
+import AuthorLayout from '@/theme/layouts/author-layout'
 import type {
   IArticle,
   IAuthor,
