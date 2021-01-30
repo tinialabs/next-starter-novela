@@ -7,7 +7,8 @@
         "**/out": true,
         "**/script.js": true,
         "**/*UNUSED": true,
-        "**/dist": true
+        "**/dist": true,
+        "yarn.lock": true
     },
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
