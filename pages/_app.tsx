@@ -1,4 +1,4 @@
-import React from 'react'
+import { FC } from 'react'
 import { AppProps } from 'next/app'
 
 // import '@/theme/styles/index.css'
@@ -15,7 +15,7 @@ import 'lazysizes/plugins/respimg/ls.respimg'
 
 require('@/content/theme/favicon.png')
 
-export const App: React.FC<AppProps> = ({
+export const App: FC<AppProps> = ({
   // eslint-disable-next-line @typescript-eslint/naming-convention
   Component,
   pageProps

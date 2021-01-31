@@ -7,11 +7,8 @@ module.exports = withPlugins(
     require('next-image-meta-loader'),
   ],
   {
-    webpack: (config, { defaultLoaders }) => {
-      defaultLoaders.babel.options.plugins = [
-        require.resolve('@emotion/babel-plugin')
-      ]
-
+    webpack: (config) => {
+      /** place custom webpack configuration here */
       return config
     }
   }
