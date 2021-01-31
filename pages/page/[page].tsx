@@ -1,10 +1,10 @@
-import React from 'react'
+import type * as React from 'react'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import ArticlesLayout from '@/theme/layouts/articles-layout'
 import type {
   IArticle,
   IAuthor,
-  PageContextArticles,
+  IPageContextArticles,
   SiteProps
 } from '@/theme/types'
 import pageinate from '@/theme/utils/paginate'
@@ -31,7 +31,7 @@ const ArticlesIndex: React.FC<ArticlePageProps> = ({
   featuredAuthor,
   siteProps
 }) => {
-  const pageContext: PageContextArticles = {
+  const pageContext: IPageContextArticles = {
     pageArticles,
     mailchimp: siteProps.blog.mailchimp,
     featuredAuthor,

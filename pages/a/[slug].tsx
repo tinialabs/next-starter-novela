@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React from 'react'
+import type * as React from 'react'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import { fsArticleApi, fsAuthorApi, fsSitePropsApi } from '@/lib/fs-api/index'
 import {
@@ -15,7 +15,7 @@ import { mdxRender } from '@/theme/components/mdx-components'
 import type {
   IArticle,
   IArticleDetail,
-  PageContextArticle,
+  IPageContextArticle,
   SiteProps
 } from '@/theme/types'
 import { normalizeArticleWithContent } from '@/lib/util/normalize'
@@ -35,7 +35,7 @@ const Post: React.FC<Props> = ({
 }) => {
   const content = mdxRender(mdxSerialized)
 
-  const pageContext: PageContextArticle = {
+  const pageContext: IPageContextArticle = {
     article,
     nextArticles,
     mailchimp: siteProps.blog.mailchimp

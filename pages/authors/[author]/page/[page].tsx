@@ -1,10 +1,10 @@
-import React from 'react'
+import type * as React from 'react'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import AuthorLayout from '@/theme/layouts/author-layout'
 import type {
   IArticle,
   IAuthor,
-  PageContextAuthor,
+  IPageContextAuthor,
   SiteProps
 } from '@/theme/types'
 import pageinate from '@/theme/utils/paginate'
@@ -32,7 +32,7 @@ const AuthorPage: React.FC<AuthorsPageProps> = ({
   pageArticles,
   siteProps
 }) => {
-  const pageContext: PageContextAuthor = {
+  const pageContext: IPageContextAuthor = {
     author,
     pageArticles,
     mailchimp: siteProps.blog.mailchimp,
